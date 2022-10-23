@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0d0e0f;
+}
+body{
+  background-image: url(hlw.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  font: 400 1rem "Roboto", sans-serif;
+}
+.searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBox input {
+  outline: none;
+  height: 36px;
+  padding: 4px 16px;
+  background-color: white;
+  color: #000;
+}
+.searchBox button {
+  height: 36px;
+  padding: 4px 16px;
+  background-color: white;
+}
+.pokemonBox {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.pokemonBox img {
+  width: 400px;
+  height: 400px;
+}
